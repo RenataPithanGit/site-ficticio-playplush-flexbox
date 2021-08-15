@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Renata Pithan">
+    <meta name="description" content="Loja de pelucias PlayPlush. Pelúcias de personagens carismáticos com muita qualidade e variedade.">
+    <meta name="keywords" content="plush, pelucia, brinquedos, pokemon, pusheen, furby, minecraft, fnaf">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Mitr:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <title> PlayPlush - Fale Conosco </title>
+  </head>
+  <body>
+    <div class="geral">
+    <header class="topo">
+      <img class="logo" src="../imagens/logo.png" alt="logo sorvete">
+      <h1 class="titulo"> PlayPlush! </h1>
+    </header>
+      <nav class="menu">
+        <ul>
+          <li><a href="../index.html"> Home </a></li>
+          <li><a href="../paginas/colecoes.html"> Coleções </a></li>
+          <li><a href="../paginas/sobre.html"> Sobre </a></li>
+          <li><a href="../paginas/precos.html"> Preços </a></li>
+          <li><a href="../paginas/galeria.html"> Galeria </a></li>
+          <li><a href="../paginas/faleconosco.html"> Fale Conosco </a></li>
+        </ul>
+      </nav>
+    <div id="formulario">
+      <fieldset id="dados">
+        <legend>Insira seus Dados</legend>
+        <label for="nome">
+          Nome:
+          <input class="formulariocontato" type="text" name="txtnome" placeholder="Insira seu nome" size="30" required>
+        </label>
+        <label for="email">
+          Email:
+          <input class="formulariocontato" type="text" name="txtemail" placeholder="Insira seu email" size="30" required>
+        </label>
+        <label for="cidade">
+          Cidade:
+          <input class="formulariocontato" type="text" name="txtcidade" placeholder="Insira sua cidade" size="30" required>
+        </label>
+        <label for="estado">
+          Estado:
+          <select name="selestado">
+            <option value="vazio">Selecione</option>
+            <option value="AC">Acre</option>
+            <option value="AL">Alagoas</option>
+            <option value="AP">Amapá</option>
+            <option value="AM">Amazonas</option>
+            <option value="BA">Bahia</option>
+            <option value="CE">Ceará</option>
+            <option value="DF">Distrito Federal</option>
+            <option value="ES">Espírito Santo</option>
+            <option value="GO">Goiás</option>
+            <option value="MA">Maranhão</option>
+            <option value="MT">Mato Grosso</option>
+            <option value="MS">Mato Grosso do Sul</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="PA">Pará</option>
+            <option value="PB">Paraíba</option>
+            <option value="PR">Paraná</option>
+            <option value="PE">Pernambuco</option>
+            <option value="PI">Piauí</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="RN">Rio Grande do Norte</option>
+            <option value="RS">Rio Grande do Sul</option>
+            <option value="RO">Rondônia</option>
+            <option value="RR">Roraima</option>
+            <option value="SC">Santa Catarina</option>
+            <option value="SP">São Paulo</option>
+            <option value="SE">Sergipe</option>
+            <option value="TO">Tocantins</option>
+            <option value="O">Outro</option>
+          </select>
+        </label>
+        </fieldset>
+        <br>
+        <fieldset id="opcoes">
+          <legend>Opções</legend>
+          <label for="opções">
+          O que deseja enviar?
+          <input type="checkbox" name="ckopcao" value="mensagem"> Mensagem
+          <input type="checkbox" name="ckopcao" value="sugestão"> Sugestão
+        </label>
+        </fieldset>
+        <br>
+        <fieldset id="mensagem">
+          <legend> Insira sua Mensagem ou Sugestão</legend>
+        <label for="nome">
+          <textarea name="textomensagem" rows="8" cols="80" placeholder="Escreva aqui"></textarea>
+        </label>
+        </fieldset>
+        <br>
+        <fieldset id="anexo">
+          <legend> Você também pode enviar uma imagem! </legend>
+        <label for="imagem">
+          <input type="file" name="fileanexo">
+        </label>
+        </fieldset>
+        <br>
+        <input class="botao" type="submit" name="enviar" value="Enviar">
+        <input class="botao" type="reset" name="apagar" value="Apagar Tudo">
+      </div>
+    </div>
+  </body>
+  <footer>
+    <p class="rodape"> PlayPlush © </p>
+  </footer>
+</html>

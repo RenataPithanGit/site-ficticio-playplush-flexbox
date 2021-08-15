@@ -1,0 +1,247 @@
+*{
+  font-family: 'Mitr', sans-serif;
+  margin:0;
+  text-align: center;
+}
+
+.geral{
+  margin: auto;
+  margin-bottom: 11%;
+}
+
+.galeriafoto{
+  width: 100%;
+}
+
+.conteudo{
+  margin-top: 3%;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.conteudodentro{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: calc(146px * 4);
+}
+
+.foto01, .foto02, .foto03, .foto04, .foto05, .foto06, .foto07, .foto08{
+  max-width: 30%;
+  flex: 1 0 136px;
+  margin: 0 5px 20px;
+  transition: transform .2s;
+}
+.foto01:hover, .foto02:hover, .foto03:hover, .foto04:hover, .foto05:hover, .foto06:hover, .foto07:hover, .foto08:hover{
+transform: scale(1.5);
+}
+
+.logo{
+  width:13%;
+  height: auto;
+  position: absolute;
+  top: 2%;
+  right: 70%;
+}
+
+.titulo{
+  font-size: 40pt;
+  font-family: 'Fredoka One', cursive;
+  color: #ffff;
+}
+
+header{
+  height: 200px;
+  background-color: #ad97f7;
+}
+
+.titulo{
+  padding-top: 5%;
+}
+
+h2{
+  font-family: 'Fredoka One', cursive;
+}
+
+#home{
+  width: 45%;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+#banner{
+  width: 100%;
+  margin-top: 3%;
+}
+
+#banner2{
+  width: 80%;
+  margin-top: 3%;
+}
+
+#descricao{
+  font-size: 13pt;
+}
+
+#titulodescricao{
+  font-size: 20pt;
+  padding: 3%;
+}
+
+p{
+  font-size: 16px;
+	text-indent: 15px;
+	margin-left: 6px;
+	padding:2px;
+	text-align: left;
+}
+
+#colecoeslista{
+  background-color: #d8ccff;
+  border: 10px;
+  width: 60%;
+  margin-top: 3%;
+  margin-left: 20%;
+  border-radius: 25px;
+  padding-bottom: 1%;
+  padding-top: 1%;
+  color: #fff;
+}
+
+#colecoesitens{
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 20pt;
+}
+
+#colecoesitens li{
+  list-style-image:url(../imagens/iconlista.png);
+  font-family: 'Fredoka One', cursive;
+  padding: 1%;
+}
+
+#formulario{
+  margin-top: 3%;
+}
+
+fieldset{
+  border-color: #ad97f7;
+  border-style: solid;
+  border-radius: 10px;
+}
+.formulariocontato{
+  display: inline-block;
+  border-color: #dacfff;
+  border-style: solid;
+  border-radius: 10px;
+}
+
+textarea{
+  text-align: left;
+}
+
+#dados, #opcoes, #mensagem, #anexo{
+  margin: 0 auto;
+  width: 89%;
+  padding: 1%;
+}
+
+.botao{
+  font-size: 12pt;
+  padding: 0.5%;
+  background-color: #fff;
+  color: #ad97f7;
+  border-color: #ad97f7;
+  border-style: solid;
+  border-radius: 10px;
+}
+
+#tabela{
+  margin-top: 3%;
+  padding: 1%;
+}
+
+#tabelaprecos{
+  margin: 0 auto;
+  border: solid #ad97f7;
+  width: 70%;
+}
+
+td,tr{
+  border: none;
+  background-color: #ad97f7;
+  color: #fff;
+  padding: 4%;
+}
+
+td{
+  background-color: #cfbef7;
+}
+
+.menu{
+  height:5%;
+	width: 100%;
+	line-height: 2;
+	width:auto;
+  background-color: #fff;
+  font-size: 16pt;
+}
+
+.menu ul{
+	list-style-type:none;
+}
+
+.menu ul li{
+	display:inline-block;
+}
+
+.menu ul li a{
+	display:block;
+	color:#ad97f7;
+	text-decoration:none;
+	padding: 7px;
+	position:relative;
+  z-index: 1;
+}
+.menu ul li a:hover{
+	color: #fff;
+}
+
+.menu ul li a:after {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  width: 100%;
+  height: 1px;
+  content: '.';
+  color: transparent;
+  background: #ad97f7;
+  visibility: none;
+  opacity: 0;
+  z-index: -1;
+}
+
+.menu ul li a:hover:after{
+  opacity: 1;
+  visibility: visible;
+  height: 100%;
+}
+
+footer{
+  width: 100%;
+  position: absolute;
+	color: #fff;
+	float:none;
+	clear:both;
+  background-color: #ad97f7;
+}
+
+.rodape{
+  text-align: center;
+  padding: 10px;
+}
